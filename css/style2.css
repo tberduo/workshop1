@@ -1,0 +1,130 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	background-color: #EF402F;
+}
+
+.home { 
+	margin: auto;
+	width: 75%;
+	height: 8%;
+	text-align: right;
+	padding: 5% 0 0 0;
+}
+
+.ion-close {
+	font-size: 30px;
+	text-align: center;
+	color: white;
+}
+
+body article{
+	width: 80%;
+	height: 80%;
+	margin: auto;
+}
+
+body article h2{
+	text-align: center;
+	font-size: 150px;
+	font-weight: 800;
+	color: white;
+}
+
+body article h2 span{
+	font-weight: 400;
+}
+
+body article form{
+	height: 80%;
+	display: block;
+	width: 50%;
+	margin: auto;
+}
+
+.contact {
+	width: 100%;
+	border: none;
+	margin: 2.5% auto 2.5% auto;
+	text-align: center;
+}
+
+.dudas {
+	height: 20%;
+}
+
+.info {
+	height: 10%;
+}
+
+.boton{
+	margin: auto;
+	display: block;
+	border: none;
+	background-color: #84247e;
+	color: white;
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding: 2% 5%;
+	border-radius: 3%;
+	margin-top: 5%;
+}
+
+.social {
+	width: 100%;
+	text-align:center;
+	color: white;
+	font-size: 20px;
+	margin-top: 10%;
+}
+
+.social span{
+	margin: 0 3%;
+}
+
+@media screen and (max-width: 480px){
+	.home {
+		width:100%;
+		text-align: center;
+		padding: 10% 0 0 0;
+	}	
+
+	.ion-close { 
+		font-size: 20px;
+	}
+	
+	body article h2 {
+		font-size: 30px; 
+	}
+
+	body article form{
+		margin-top: 5%;
+		margin-bottom: 5%;
+
+	}
+
+	.dudas {
+		height: 30%;
+	}
+
+	.info {
+		height: 20%;
+
+	}
+
+	.boton { 
+		margin-top: 8%;
+		font-size: 15px;
+		padding: 4% 6%;
+	}
+
+	.social {
+		font-size: 15px;
+	}
+
+
+}
